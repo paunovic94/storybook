@@ -1,0 +1,25 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook -o build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/react": "^5.2.3"
+  },
+  "dependencies": {
+    "@tampmd/bth-react-components": "^2.0.4",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-docgen-typescript-loader": "^3.3.0",
+    "react-dom": "^16.10.2",
+    "react-scripts": "^3.2.0",
+    "sass-loader": "^8.0.0",
+    "typescript": "^3.6.4"
+  }
+}

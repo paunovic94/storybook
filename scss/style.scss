@@ -1,0 +1,39 @@
+html {
+  font-family: 'Noto Serif JP', serif;
+  button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    span {
+      margin: 16px; 
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 26px;
+      text-align: center;
+    }
+  }
+  a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    span {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    }
+  }
+
+  .largeUnderline {
+    span{
+      font-size: 16px;
+      font-weight: normal;
+    }
+  }
+  .smallUnderline {
+    span{
+      font-size: 14px;
+      font-weight: normal;
+    }
+  }
+}
+.inputClass{
+  
+  max-width: 400px;
+  margin-left: 10px;
+}
